@@ -3,22 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34902.65
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8E2E9EB2-B687-4D2E-A079-32926E05F152}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Features", "Features", "{B89713ED-2CB8-46AE-A509-A5FCC8825FC7}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{EA771345-AEF5-4775-BE45-3EEE7C8C1464}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Controllers", "Controllers", "{17444DC3-B95E-4385-921F-9CF2E13F31C4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VerticalSliceArchitecture", "VerticalSliceArchitecture\VerticalSliceArchitecture.csproj", "{8387743E-FE8A-4D88-B65B-30B8BC69B060}"
 EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8387743E-FE8A-4D88-B65B-30B8BC69B060}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8387743E-FE8A-4D88-B65B-30B8BC69B060}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8387743E-FE8A-4D88-B65B-30B8BC69B060}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8387743E-FE8A-4D88-B65B-30B8BC69B060}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{B89713ED-2CB8-46AE-A509-A5FCC8825FC7} = {8E2E9EB2-B687-4D2E-A079-32926E05F152}
-		{EA771345-AEF5-4775-BE45-3EEE7C8C1464} = {8E2E9EB2-B687-4D2E-A079-32926E05F152}
-		{17444DC3-B95E-4385-921F-9CF2E13F31C4} = {8E2E9EB2-B687-4D2E-A079-32926E05F152}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {983A59C6-926B-4352-9215-D28A21CE43C2}
