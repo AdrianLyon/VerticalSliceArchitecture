@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34902.65
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8E2E9EB2-B687-4D2E-A079-32926E05F152}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Features", "Features", "{B89713ED-2CB8-46AE-A509-A5FCC8825FC7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{EA771345-AEF5-4775-BE45-3EEE7C8C1464}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Controllers", "Controllers", "{17444DC3-B95E-4385-921F-9CF2E13F31C4}"
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B89713ED-2CB8-46AE-A509-A5FCC8825FC7} = {8E2E9EB2-B687-4D2E-A079-32926E05F152}
+		{EA771345-AEF5-4775-BE45-3EEE7C8C1464} = {8E2E9EB2-B687-4D2E-A079-32926E05F152}
+		{17444DC3-B95E-4385-921F-9CF2E13F31C4} = {8E2E9EB2-B687-4D2E-A079-32926E05F152}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {983A59C6-926B-4352-9215-D28A21CE43C2}
+	EndGlobalSection
+EndGlobal
